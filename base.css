@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    display: block;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+body{
+    background-color: #f3f5f7;
+    /* 补偿fixed导航高度，防止页面被导航遮挡 */
+    padding-top: 110px;
+}
